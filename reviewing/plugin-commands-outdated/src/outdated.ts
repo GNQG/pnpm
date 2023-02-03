@@ -15,7 +15,7 @@ import {
 } from '@pnpm/outdated'
 import semverDiff from '@pnpm/semver-diff'
 import { DependenciesField, PackageManifest } from '@pnpm/types'
-import { table } from '@zkochan/table'
+import { table } from 'table'
 import chalk from 'chalk'
 import pick from 'ramda/src/pick'
 import sortWith from 'ramda/src/sortWith'

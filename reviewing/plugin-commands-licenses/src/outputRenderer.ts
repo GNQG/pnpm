@@ -1,7 +1,7 @@
 import { TABLE_OPTIONS } from '@pnpm/cli-utils'
 import { LicensePackage } from '@pnpm/license-scanner'
 import chalk from 'chalk'
-import { table } from '@zkochan/table'
+import { table } from 'table'
 import { groupBy, sortWith } from 'ramda'
 
 function sortLicensesPackages (licensePackages: readonly LicensePackage[]) {

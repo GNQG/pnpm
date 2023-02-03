@@ -9,7 +9,7 @@ import {
   IncludedDependencies,
   ProjectManifest,
 } from '@pnpm/types'
-import { table } from '@zkochan/table'
+import { table } from 'table'
 import chalk from 'chalk'
 import isEmpty from 'ramda/src/isEmpty'
 import sortWith from 'ramda/src/sortWith'

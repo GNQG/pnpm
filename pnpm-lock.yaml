@@ -2005,9 +2005,6 @@ importers:
       '@pnpm/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@zkochan/table':
-        specifier: ^1.0.0
-        version: 1.0.0
       chalk:
         specifier: ^4.1.2
         version: 4.1.2
@@ -2020,6 +2017,9 @@ importers:
       render-help:
         specifier: ^1.0.3
         version: 1.0.3
+      table:
+        specifier: ^6.8.1
+        version: 6.8.1
     devDependencies:
       '@pnpm/plugin-commands-audit':
         specifier: workspace:*
@@ -2033,9 +2033,6 @@ importers:
       '@types/ramda':
         specifier: 0.28.20
         version: 0.28.20
-      '@types/zkochan__table':
-        specifier: npm:@types/table@6.0.0
-        version: /@types/table@6.0.0
       load-json-file:
         specifier: ^6.2.0
         version: 6.2.0
@@ -3505,9 +3502,6 @@ importers:
       '@zkochan/rimraf':
         specifier: ^2.1.2
         version: 2.1.2
-      '@zkochan/table':
-        specifier: ^1.0.0
-        version: 1.0.0
       '@zkochan/which':
         specifier: ^2.0.3
         version: 2.0.3
@@ -3547,6 +3541,9 @@ importers:
       render-help:
         specifier: ^1.0.3
         version: 1.0.3
+      table:
+        specifier: ^6.8.1
+        version: 6.8.1
       version-selector-type:
         specifier: ^3.0.0
         version: 3.0.0
@@ -3584,9 +3581,6 @@ importers:
       '@types/yarnpkg__lockfile':
         specifier: ^1.1.5
         version: 1.1.5
-      '@types/zkochan__table':
-        specifier: npm:@types/table@6.0.0
-        version: /@types/table@6.0.0
       delay:
         specifier: ^5.0.0
         version: 5.0.0
@@ -4963,9 +4957,6 @@ importers:
       '@pnpm/store-path':
         specifier: workspace:*
         version: link:../../store/store-path
-      '@zkochan/table':
-        specifier: ^1.0.0
-        version: 1.0.0
       chalk:
         specifier: ^4.1.2
         version: 4.1.2
@@ -4975,6 +4966,9 @@ importers:
       render-help:
         specifier: ^1.0.3
         version: 1.0.3
+      table:
+        specifier: ^6.8.1
+        version: 6.8.1
     devDependencies:
       '@pnpm/filter-workspace-packages':
         specifier: workspace:*
@@ -4997,9 +4991,6 @@ importers:
       '@types/wrap-ansi':
         specifier: ^8.0.1
         version: 8.0.1
-      '@types/zkochan__table':
-        specifier: npm:@types/table@6.0.0
-        version: /@types/table@6.0.0
       strip-ansi:
         specifier: ^6.0.1
         version: 6.0.1
@@ -5112,9 +5103,6 @@ importers:
       '@pnpm/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@zkochan/table':
-        specifier: ^1.0.0
-        version: 1.0.0
       chalk:
         specifier: ^4.1.2
         version: 4.1.2
@@ -5130,6 +5118,9 @@ importers:
       strip-ansi:
         specifier: ^6.0.1
         version: 6.0.1
+      table:
+        specifier: ^6.8.1
+        version: 6.8.1
       wrap-ansi:
         specifier: ^7.0.0
         version: 7.0.0
@@ -5161,9 +5152,6 @@ importers:
       '@types/wrap-ansi':
         specifier: ^8.0.1
         version: 8.0.1
-      '@types/zkochan__table':
-        specifier: npm:@types/table@6.0.0
-        version: /@types/table@6.0.0
 
   store/cafs:
     dependencies:
@@ -8873,10 +8861,6 @@ packages:
     resolution: {integrity: sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==}
     dev: true
 
-  /@types/table@6.0.0:
-    resolution: {integrity: sha512-RSmRiYetRzpcZcgNo4x6C1VSsPGBHCGGDO7Rbnz5esVLbGONxBP1CUcn8JhAkVzUVLO+AY8yOSkb27jvfauLyg==}
-    dev: true
-
   /@types/tar-stream@2.2.2:
     resolution: {integrity: sha512-1AX+Yt3icFuU6kxwmPakaiGrJUwG44MpuiqPg4dSolRFk6jmvs4b3IbUol9wKDLIgU76gevn3EwE8y/DkSJCZQ==}
     dependencies:
@@ -9421,16 +9405,6 @@ packages:
     engines: {node: '>=12.10'}
     dependencies:
       rimraf: 3.0.2
-
-  /@zkochan/table@1.0.0:
-    resolution: {integrity: sha512-xLQlpiyapKO00VN3X0FmIzDN5CNCLCaSSnEldb9wAhKrFzQmmfu+FDlMvU0lA0wVDC8pawS8HFYYuGoZR6GdOw==}
-    engines: {node: '>=10.0.0'}
-    dependencies:
-      '@arcanis/slice-ansi': 1.1.1
-      ajv: 6.12.6
-      lodash: 4.17.21
-      string-width: 4.2.3
-    dev: false
 
   /@zkochan/which@2.0.3:
     resolution: {integrity: sha512-C1ReN7vt2/2O0fyTsx5xnbQuxBrmG5NMSbcIkPKCCfCTJgpZBsuRYzFXHj3nVq8vTfK7vxHUmzfCpSHgO7j4rg==}
@@ -17452,7 +17426,6 @@ time:
   /@types/signal-exit@3.0.1: '2021-07-06T17:09:42.542Z'
   /@types/sinon@10.0.13: '2022-07-20T05:32:19.345Z'
   /@types/ssri@7.1.1: '2021-07-06T17:33:37.041Z'
-  /@types/table@6.0.0: '2020-09-17T17:56:44.787Z'
   /@types/tar-stream@2.2.2: '2021-10-17T15:01:27.866Z'
   /@types/tar@6.1.3: '2022-09-26T19:34:18.595Z'
   /@types/touch@3.1.2: '2021-07-02T19:48:20.467Z'
@@ -17476,7 +17449,6 @@ time:
   /@zkochan/js-yaml@0.0.6: '2022-05-10T14:42:39.813Z'
   /@zkochan/retry@0.2.0: '2020-06-06T23:36:55.687Z'
   /@zkochan/rimraf@2.1.2: '2022-01-30T23:37:31.206Z'
-  /@zkochan/table@1.0.0: '2020-10-28T20:34:59.396Z'
   /@zkochan/which@2.0.3: '2021-09-14T23:50:27.657Z'
   /adm-zip@0.5.10: '2022-12-20T11:08:08.848Z'
   /ansi-diff@1.1.1: '2018-06-16T13:37:28.365Z'
@@ -17621,6 +17593,7 @@ time:
   /strip-comments-strings@1.2.0: '2022-06-12T23:34:53.852Z'
   /symlink-dir@5.1.1: '2023-02-01T00:19:14.193Z'
   /syncpack@8.4.11: '2022-12-01T10:23:30.151Z'
+  /table@6.8.1: '2022-11-02T02:01:23.775Z'
   /tar-stream@2.2.0: '2020-12-29T10:22:57.508Z'
   /tar@6.1.13: '2022-12-07T20:32:39.620Z'
   /tempy@1.0.1: '2021-03-17T07:03:04.830Z'
